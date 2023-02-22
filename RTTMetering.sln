@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{102B1E7F-478E-4112-8775-811FFA4EE54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Client", "src/RTTMetering.Client\RTTMetering.Client.csproj", "{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Server", "src/RTTMetering.Server\RTTMetering.Server.csproj", "{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStreaming.Shared", "..\networking.shared\src\DataStreaming.Shared\DataStreaming.Shared.csproj", "{4692F6B3-4C6E-439E-B648-3B69320E07F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4692F6B3-4C6E-439E-B648-3B69320E07F2} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
+	EndGlobalSection
+EndGlobal
