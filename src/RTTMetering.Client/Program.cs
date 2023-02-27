@@ -21,14 +21,14 @@ var configuration = new ConfigurationBuilder()
             if (eventArgs.MeteringType == RttMeteringType.SinglePacket)
             {
                 var stats = eventArgs.RttStats.Value;
-                Console.WriteLine($"[{nameof(RttMeteringType.SinglePacket)}]: {stats.SequenceNumber}. {Math.Ceiling(stats.RttValue.TotalMicroseconds)} mks");
+                Console.WriteLine($"[{nameof(RttMeteringType.SinglePacket)}]: {stats.SequenceNumber}. {Math.Ceiling(stats.Rtt.TotalMicroseconds)} mks");
                 // Console.WriteLine($"[{nameof(RttMeteringType.SinglePacket)}]: {stats.SequenceNumber}. {stats.RttValue}");
                 return Task.CompletedTask;
             }
         
             var agStats = eventArgs.AggregatedRttStats.Value;
             Console.WriteLine($"[{nameof(RttMeteringType.AggregationInterval)}]: {agStats.SequenceNumber}. " +
-                                $"Average val: {agStats.RttValue.TotalMicroseconds} mks (({agStats.PacketsCount} for {agStats.AggregationInterval} ms))");
+                                $"Average val: {agStats.AvgRtt.TotalMicroseconds} mks (({agStats.PacketsCount} for {agStats.AggregationInterval} ms))");
             return Task.CompletedTask;
         };
         try
