@@ -8,7 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStreaming.Shared", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Shared.ClientTests", "..\playing.networking\src\DataStreaming.Shared\src\Networking.Shared.ClientTests\Networking.Shared.ClientTests.csproj", "{91A79A41-846E-4FD8-9F07-81D389BA90BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Server", "src\RTTMetering.Server\RTTMetering.Server.csproj", "{16C700BE-264E-4B61-81BF-81D557C247C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Server", "src\RTTMetering.Server\RTTMetering.Server.csproj", "{5487481B-9C2D-45D2-B9E7-AB98EBF113E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Shared.ServerTests", "..\networking.shared\src\Networking.Shared.ServerTests\Networking.Shared.ServerTests.csproj", "{417B7BC3-97B0-483E-8446-BB16F56EE4A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,14 +30,18 @@ Global
 		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16C700BE-264E-4B61-81BF-81D557C247C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16C700BE-264E-4B61-81BF-81D557C247C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16C700BE-264E-4B61-81BF-81D557C247C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16C700BE-264E-4B61-81BF-81D557C247C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5487481B-9C2D-45D2-B9E7-AB98EBF113E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5487481B-9C2D-45D2-B9E7-AB98EBF113E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5487481B-9C2D-45D2-B9E7-AB98EBF113E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5487481B-9C2D-45D2-B9E7-AB98EBF113E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417B7BC3-97B0-483E-8446-BB16F56EE4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417B7BC3-97B0-483E-8446-BB16F56EE4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417B7BC3-97B0-483E-8446-BB16F56EE4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417B7BC3-97B0-483E-8446-BB16F56EE4A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
 		{91A79A41-846E-4FD8-9F07-81D389BA90BD} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
-		{16C700BE-264E-4B61-81BF-81D557C247C6} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
+		{417B7BC3-97B0-483E-8446-BB16F56EE4A0} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
 	EndGlobalSection
 EndGlobal
