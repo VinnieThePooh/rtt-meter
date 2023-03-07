@@ -29,7 +29,7 @@ meteringService.RttReceived += (o, eventArgs) =>
     Console.WriteLine($"[{nameof(RttMeteringType.AggregationInterval)}]: {agStats.SequenceNumber}.\n" +
                       $"Avg Rtt: {(agStats.AvgRtt.TotalMicroseconds > 1000 ? Math.Round(agStats.AvgRtt.TotalMilliseconds, 2) + "ms" : Math.Round(agStats.AvgRtt.TotalMicroseconds, 2) + "mks")} ({agStats.PacketsCount} packets for {agStats.AggregationInterval} ms)\n" +
                       $"Max Rtt: {(agStats.MaxRtt.TotalMicroseconds > 1000 ? Math.Round(agStats.MaxRtt.TotalMilliseconds, 2) + "ms" : Math.Round(agStats.MaxRtt.TotalMicroseconds, 2) + "mks")}\n" +
-                      $"Min Rtt: {(agStats.MinRtt.TotalMicroseconds > 1000 ? Math.Round(agStats.MinRtt.TotalMilliseconds, 2) + "ms" : Math.Round(agStats.AvgRtt.TotalMicroseconds, 2) + "mks")}\n");
+                      $"Min Rtt: {(agStats.MinRtt.TotalMicroseconds > 1000 ? Math.Round(agStats.MinRtt.TotalMilliseconds, 2) + "ms" : Math.Round(agStats.MinRtt.TotalMicroseconds, 2) + "mks")}\n");
     return Task.CompletedTask;
 };
 try
