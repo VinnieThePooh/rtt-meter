@@ -4,9 +4,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Client", "src/RTTMetering.Client\RTTMetering.Client.csproj", "{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Server", "src/RTTMetering.Server\RTTMetering.Server.csproj", "{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStreaming.Shared", "..\networking.shared\src\DataStreaming.Shared\DataStreaming.Shared.csproj", "{4692F6B3-4C6E-439E-B648-3B69320E07F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking.Shared.ClientTests", "..\playing.networking\src\DataStreaming.Shared\src\Networking.Shared.ClientTests\Networking.Shared.ClientTests.csproj", "{91A79A41-846E-4FD8-9F07-81D389BA90BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTTMetering.Server", "src\RTTMetering.Server\RTTMetering.Server.csproj", "{16C700BE-264E-4B61-81BF-81D557C247C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +20,22 @@ Global
 		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B5CDAD0-192F-4B46-BB97-A22E76E671AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5B7C8ED-ADA2-4299-A01A-A6BA10891D47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A79A41-846E-4FD8-9F07-81D389BA90BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C700BE-264E-4B61-81BF-81D557C247C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C700BE-264E-4B61-81BF-81D557C247C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C700BE-264E-4B61-81BF-81D557C247C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C700BE-264E-4B61-81BF-81D557C247C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4692F6B3-4C6E-439E-B648-3B69320E07F2} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
+		{91A79A41-846E-4FD8-9F07-81D389BA90BD} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
+		{16C700BE-264E-4B61-81BF-81D557C247C6} = {102B1E7F-478E-4112-8775-811FFA4EE54C}
 	EndGlobalSection
 EndGlobal
